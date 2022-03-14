@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/*
+  selector {
+    propiedad : valor;
+    propiedad2: valor;
+  }
+
+  Etiqueta o elemento  [especificidad => 001]
+  p {
+    color: red;
+  }
+
+  Clase  [especificidad => 010]
+  .title {
+      font-size: 40px;
+      font-weight: normal; 
+  }
+
+  ID  [especificidad => 100]
+  #noticias{
+      text-align: center;
+  }
+
+*/
+/*** Estilos generales ***/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  color: red;
+}
+h2 {
+  color: green;
+}
+span,label,input{
+   font-size: 20px;
+}
+/*** Estilos main ***/
+
+/* h2.title{
+  color: yellow;
+} */
+
+.title {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#noticias{
+  background-color: #eeeeee;
+  text-align: center;
+}
+.color-primario{
+  color: red;
+}
+.color-secundario{
+  /* rojo,verde,azul => 0 - 255  */
+  color: #ff0000ab;
+}
+
+/*
+    camelCase
+    snake_case
+    PascalCase
+*/
+
+/*
+    trazo de la fuente 
+    font-weight: normal, bold, [...numericos]
+    font-size: 20px;
+    font-sytle: italic,normal
+
+*/
