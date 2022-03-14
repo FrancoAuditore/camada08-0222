@@ -1,2 +1,4 @@
-# Repositorio Camada 8
-Dentro de este repositorio crearemos diferentes ramas con los ejercicios que veamos en clase
+# Clase 4s
+Dentro de la clase 4s nos encontramos con las listas ordenadas y desordenadas
+
+Hablamos sobre su comportamiento y atributos principales (type, start, reversed)
