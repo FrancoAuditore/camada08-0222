@@ -8,4 +8,6 @@ Hablamos sobre:
 - Agrupamos selectores
 - Vimos combinacion de selector de etiqueta y clase
 - Conocimos propiedades: text-align, color, font-size, font-weight, font-style, font-family, background-color
-- Incorporamos fuente Google Font
+- Conocimos como se definen colores con (rgb, hexa, rgba, colores predeterminados y hexa con alpha)
+- Incorporamos fuente Google Fonts
+- Hablamos brevemente del inspector
