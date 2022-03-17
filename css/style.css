@@ -3,6 +3,7 @@
 /* importo la libreria de fontawesome en su version 6.1.0 que es la actual*/
 @import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
 
+/* aplicamos la fuente general para todo el body*/
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -19,6 +20,7 @@ span {
   height: 190px;
   width: 100%;
 }
+/* agrupamos selectores de clase */
 .titulo, .subtitulo {
   background-color: #C4C4C4;
   color: #005677;
@@ -26,6 +28,7 @@ span {
   font-weight: 400;
   text-transform: uppercase;
 }
+/* definimos los valores especificos para cada clase */
 .titulo{
   font-size: 35px;
   text-align: center;
@@ -46,6 +49,7 @@ span {
   text-align: center;
   width: 100%;
 }
+/* aplicamos un selector de descendencia */
 .pie a{
   color: inherit;
   text-decoration: none;
