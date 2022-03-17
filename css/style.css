@@ -1,0 +1,52 @@
+/* importo las fuentes de Google Font Nunito para titulos y Poppins para el resto del texto*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* importo la libreria de fontawesome en su version 6.1.0 que es la actual*/
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+span {
+  font-weight: 700;
+}
+
+.cabecera {
+  background-attachment: fixed, scroll;
+  background-image: url("../img/batman.png"), url("../img/baticueva.png");
+  background-position: top, bottom center;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  height: 190px;
+  width: 100%;
+}
+.titulo, .subtitulo {
+  background-color: #C4C4C4;
+  color: #005677;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.titulo{
+  font-size: 35px;
+  text-align: center;
+}
+.subtitulo{
+  font-size: 20px;
+  text-align: left;
+}
+.espacio {
+   height: 133px;
+}
+.pie{
+  background-color: #005677;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 37px;
+  text-align: center;
+  width: 100%;
+}
+.pie a{
+  color: inherit;
+  text-decoration: none;
+}
