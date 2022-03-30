@@ -41,7 +41,7 @@ Estas medias estan relecionadas al trabajo con tipografias.
 
 **Por ejemplo:**
 
-El tamaño inicial *salvo que se defina lo contrario* de los textos es de **16px** por lo tanto 
+El tamaño inicial, *salvo que se defina lo contrario*, de los textos es de **16px** por lo tanto 
 ```
   1em    => 16px
   1.5em  => 24px (16px * 1.5)
