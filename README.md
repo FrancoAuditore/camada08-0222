@@ -5,7 +5,7 @@
 A lo largo de esta clase vimos conceptos como 
 
 - **Medias Relativas** ( porcentajes, viewport height and width, rems, ems )
-- **Etiqueta meta ***  configuramos el sitio tanto para el viewport como para otras propiedades
+- **Etiqueta meta**  configuramos el sitio tanto para el viewport como para otras propiedades
 - **Concepto de breakpoints y media queries** aplicada a distintos media types
 
 ## Resumen de algunos conceptos 
