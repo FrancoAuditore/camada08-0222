@@ -142,7 +142,7 @@ ocupar el 100% del ancho del dispositivo
 
 ```
 
-**device-width**   =>  es el ancho del dispositivo
-**initial-scale**  =>  establece el zoom inicial de la pagina
-**minimun-scale y maximun-scale**  =>  establece el minimo y maximo zoom 
-**user-scalable**  => Define si el usuario podra o no hacer zoom en la pagina (en mobile con dos dedos)
+- **device-width**   =>  es el ancho del dispositivo
+- **initial-scale**  =>  establece el zoom inicial de la pagina
+- **minimun-scale y maximun-scale**  =>  establece el minimo y maximo zoom 
+- **user-scalable**  => Define si el usuario podra o no hacer zoom en la pagina (en mobile con dos dedos)
