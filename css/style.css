@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;  /* 1rem, 1em  =>  10px*/
+  /*
+    0.5     => 5px
+    1em     => 10px
+    1.5em   => 15px
+  */
+
+  /* 
+    font-size: 16px;
+    1em  => 16px  (1.5  * 16px)  
+    1.5em => 24px
+    */
+}
+
+.container {
+  border: 2px solid black;
+  /*  
+      vw => el ancho en relacion al viewport
+      vh => el alto en relacion al viewport
+      %  => es en relacion al padre
+
+   */
+  width: 90vw;
+  height: 500px;
+  font-size: 3rem; 
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+}
+.box{
+  width: 100%;
+  height: 200px;
+  font-size: 50px; 
+}
+.box1 {
+  background-color: crimson;
+  color: white;
+  
+}
+.box2 {
+  background-color: salmon;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+      flex-direction: column;
+      width: 50vw;
+  }
+}
+
+@media print{
+  .box{
+      color: yellow;
+  }
+}
+/* Ejemplos Dark & Light Mode*/
+@media (prefers-color-scheme: dark) {
+  .day.dark-scheme   { background:  #333; color: white; }
+  .night.dark-scheme { background: black; color:  #ddd; }
+}
+
+@media (prefers-color-scheme: light) {
+  .day.light-scheme   { background: white; color:  #555; }
+  .night.light-scheme { background:  #eee; color: black; }
+}
