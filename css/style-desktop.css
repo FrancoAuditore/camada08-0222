@@ -1,0 +1,15 @@
+.header__menu-mobile{
+  display: none;
+}
+.header__menu{
+ display: block;
+ margin-right: 4rem;
+}
+.banner {
+ background-image: url("../images/bg_desktop.png");
+}
+
+.banner__title {
+ align-self: flex-end;
+ margin-right: 1rem;
+}
