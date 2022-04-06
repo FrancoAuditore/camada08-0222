@@ -1,54 +1,160 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%; /* 1rem => 10px*/
+.enlace{
+  background-color: tomato;
+  border: 1px solid lightgray;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.enlace:visited{
+  background-color: crimson;
+}
+.enlace:hover{
+   padding: 40px;
+   transition: 0.8s;
+}
+.enlace:active{
+  background-color: steelblue;
+}
+#objetivo {
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+}
+#objetivo:target {
+  margin-left: 100px;
+  transition: 0.5s;
 }
 
-body {
-  background-color: salmon;
-  font-family: "Roboto", sans-serif;
-}
-.container{
-    margin: 3rem auto;
-    width: 60%;
-}
 form{
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 90%;
-  margin: 10px auto;
-  padding: 5rem;
-}
-form fieldset {
-  padding: 1rem;
-}
-input, textarea{
-  display: block;
-  margin: 5px;
-  width: 80%;
-}
-label{
-  display: block;
-  font-weight: bold;
-}
-button {
-  margin:10px auto;
-}
-select {
+  background-color: #f2f2f2;
+  margin: 30px auto;
+  padding: 40px;
   width: 50%;
 }
-
-.toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+input{
+  display: block;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
 }
 
+input:focus{
+  background-color: lightgray;
+  outline: none;
+  border: none;
+}
 
+form:focus-within{
+  background-color: tomato;
+}
 
+a:not(.enlace){
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+input[type="checkbox"]:checked{
+
+}
+
+body{
+  padding: 10px;
+}
+.container{
+  border: 2px tomato solid;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 50%;
+}
+.box{
+  background-color: steelblue;
+  border: 1px black solid;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .box:only-of-type {
+  background-color: tomato;
+} */
+
+/* .box:last-of-type {
+  background-color: tomato;
+} */
+/* .box:first-of-type {
+  background-color: tomato;
+}
+ */
+/* odd  => impares   even => pares
+  2*n 
+
+*/
+/* .box:nth-of-type(2n) {
+  background-color: tomato;
+}
+ */
+/* 
+ .box:nth-last-of-type(1) {
+  background-color: tomato;
+}
+ */
+
+ /* .box:only-child {
+  background-color: tomato;
+} */
+
+/* .box:last-child {
+  background-color: tomato;
+}
+ */
+/*  .box:first-child {
+  background-color: tomato;
+} */
+
+/* .box:nth-child(even) {
+  background-color: tomato;
+} 
+ */
+.container :nth-child(3){
+  background-color: tomato;
+}
+
+/* selector::pseudoelemento */
+
+p::selection{
+  background-color: yellow;
+}
+p::first-letter{
+  font-size: 30px;
+}
+p::first-line{
+  font-style: italic;
+}
+input::placeholder{
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+.price{
+  font-weight: bold;
+  font-size: 20px;
+}
+.price::before{
+  content: "$";
+}
+.price::after{
+  content: ".00";
+}

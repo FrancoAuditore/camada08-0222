@@ -5,95 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formularios</title>
+  <title>Pseudoselectores</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container">
-    <!-- 
-            GET  => los datos se envian por la URL
-            POST => los datos viajan en el cuerpo de la peticion
+  <a href="https://google.com" target="_blank" class="enlace"> Home</a>
+  <a href="https://facebook.com" target="_blank" class="enlace"> Producto</a>
+  <a href="#objetivo" target="_blank" class="enlace"> Contacto</a>
+  <a href="#objetivo" target="_blank">Suscribrirse</a>
 
-            readonly => solo lectura
+  <!-- <div id="objetivo"></div> -->
 
-            send.php?variable1=valor1&variable2=valor2
+  <form action="">
+    <input type="text" placeholder="campo1">
+    <input type="email" placeholder="campo2">
+  </form>
 
-          -->
-    <form class="form" action="#" method="GET">
-      <fieldset>
-        <legend>Datos Personales</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="firstname" placeholder="Ingrese su nombre" minlength="3" maxlength="50" 
-          required>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum, est molestiae pariatur itaque recusandae
+    asperiores! Nihil, rerum laboriosam fugit corrupti consequatur autem possimus recusandae? Temporibus commodi hic
+    nisi cum unde dolor? Totam labore sunt illum magni explicabo maxime. Nostrum.
+  </p>
 
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="lastname" placeholder="Ingrese su apellido" minlength="3" maxlength="50">
+  <span class="price">15000</span>
 
-        <label for="documento">Documento:</label>
-        <input type="number" id="documento" name="document" placeholder="Ingrese su document" min="2" max="20" required>
-
-        <label for="fecha">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha" name="birthdate" placeholder="Ingrese su fecha de nacimiento" value="2022-04-04"
-          max="2022-04-15" required>
-
-        <label for="color">Color:</label>
-        <input type="color" id="color" name="eyescolor" placeholder="Ingrese su color">
-
-        <label for="color">Biografía:</label>
-        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
-
-        <label for="genero"></label>
-        <input type="radio" name="genero" value="M">Masculino
-        <input type="radio" name="genero" value="F">Femenino
-        <input type="radio" name="genero" value="O">Otro
-
-      </fieldset>
-      <fieldset>
-        <legend>Datos Usuario</legend>
-        <label for="usuario">Usuario:</label>
-        <input type="email" id="usuario" name="user" placeholder="Ingrese su correo electrónico" required>
-
-        <label for="usuario">Contraseña:</label>
-        <input type="password" name="password" placeholder="Ingrese su clave">
-
-      </fieldset>
-
-      <fieldset>
-        <legend>Nacionalidad </legend>
-        <label for="nacionalidad">Nacionalidad:</label>
-        <select name="nacionalidad" id="nacionalidad" required>
-           <option value="">seleccione un pais</option>
-           <optgroup label="LATAM">
-             <option value="ARG">Argentina</option>
-             <option value="COL">Colombia</option>
-             <option value="PE">Perú</option>
-           </optgroup>
-           <optgroup label="EU">
-            <option value="ESP">España</option>
-          </optgroup>
-        </select>
-      </fieldset>
-      <fieldset>
-        <label for="ocupacion"></label>
-        <input list="ocupaciones" id="ocupacion" name="ocupacion">
-        <datalist id="ocupaciones">
-            <option value="Empleado">
-            <option value="Independiente">
-            <option value="Estudiante">
-        </datalist>
-
-        <label for="tyc"><input type="checkbox" id="tyc" name="tyc" required> Acepta términos y condiciones</label>
-      </fieldset>
-      
-      <div class="toolbar">
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar Campos</button>
-      </div>
-
-
-    </form>
-  </div>
 </body>
 
 </html>
