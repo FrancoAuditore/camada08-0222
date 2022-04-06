@@ -7,15 +7,15 @@
   Se aplican sobre un selector seguido de :. Existen pseudoclases generales y otras especificas para ciertos elementos 
 
 
-  :link     => Elementos no visitados en el navegador
-  :visited  => Elementos o enlaces ya visitados
-  :hover    => Cuando paso el mouse sobre el selector que tiene aplicado hover
-  :active   => Cuando le doy click al elemento
-  :target   => Cuando el elemento ha sido marcado
-  :focus    => Cuando hago foco en el elemento
-  :checked  => Cuando esta seleccionado un check
-  :focus-within  => elemento que tenga un hijo en estado focus
-  :not      => Niego alguna condicion 
+  - :link     => Elementos no visitados en el navegador
+  - :visited  => Elementos o enlaces ya visitados
+  - :hover    => Cuando paso el mouse sobre el selector que tiene aplicado hover
+  - :active   => Cuando le doy click al elemento
+  - :target   => Cuando el elemento ha sido marcado
+  - :focus    => Cuando hago foco en el elemento
+  - :checked  => Cuando esta seleccionado un check
+  - :focus-within  => elemento que tenga un hijo en estado focus
+  - :not      => Niego alguna condicion 
 
   ```
     h3:not(.title){}
@@ -34,7 +34,7 @@
 
   nth-last-of-type() => inverso al anterior
 
-  ###Childs: debe cumplirse la condicion para que funcione el selector
+  ### Childs: debe cumplirse la condicion para que funcione el selector
 
   only-child{}    => siempre que sea hijo unico sin considerar el tipo
   first-child{}   => primer hijo del contenedor, si no es el primero no se selecciona (debe estar en la primer posicion)
