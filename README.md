@@ -26,21 +26,19 @@
     input[type="checkbox"]:checked + label {}
 
   ```
-  only-of-type    => unicos en su seccion o en su padre. No debe tener hermanos de su mismo tipo
-  first-of-type   => primer elemento de su tipo dentro del contenedor o padre
-  last-of-type    => ultimo elemento de su tipo dentro del contenedor
-  nth-of-type(n)  => selecciona los elementos en la posicion definida por N de su mismo tipo en el contenedor o padre. 
-                    (odd => impares / even => pares)
+  - only-of-type    => unicos en su seccion o en su padre. No debe tener hermanos de su mismo tipo
+  - first-of-type   => primer elemento de su tipo dentro del contenedor o padre
+  - last-of-type    => ultimo elemento de su tipo dentro del contenedor
+  - nth-of-type(n)  => selecciona los elementos en la posicion definida por N de su mismo tipo en el contenedor o padre. (odd => impares / even => pares)
+  - nth-last-of-type() => inverso al anterior
 
-  nth-last-of-type() => inverso al anterior
+  ## Childs: debe cumplirse la condicion para que funcione el selector
 
-  ### Childs: debe cumplirse la condicion para que funcione el selector
-
-  only-child{}    => siempre que sea hijo unico sin considerar el tipo
-  first-child{}   => primer hijo del contenedor, si no es el primero no se selecciona (debe estar en la primer posicion)
-  last-child{}    => inverso al anterior
-  nth-child(n)    => seleccion el hijo de acuerdo a la condicion de n
-  nth-last-child(n)
+  - only-child{}    => siempre que sea hijo unico sin considerar el tipo
+  - first-child{}   => primer hijo del contenedor, si no es el primero no se selecciona (debe estar en la primer posicion)
+  - last-child{}    => inverso al anterior
+  - nth-child(n)    => seleccion el hijo de acuerdo a la condicion de n
+  - nth-last-child(n)
 
 
 ## Pseudo elementos
