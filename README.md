@@ -44,8 +44,8 @@
 ## Pseudo elementos
   Manipulan el contenido de un elemento presente en el HTML. Añaden un estilo a una parte concreta de los elementos
 
-  ::first-letter
-  ::selection
-  ::first-line
-  ::after
-  ::before 
+  - ::first-letter
+  - ::selection
+  - ::first-line
+  - ::after
+  - ::before 
